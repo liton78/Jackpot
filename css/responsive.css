@@ -1,0 +1,242 @@
+
+
+
+/* ===============================
+    extra small device css starts
+=============================== */
+@media(min-width: 300px) and (max-width: 575px){
+
+    /* button common css starts */
+    .cta-btn{
+        padding: 0 10px;
+        line-height: 35px;
+        font-size: 20px;
+    }
+    /* button common css ends */
+
+    /* navbar css starts */
+    .navbar .navbar-brand{
+        position: static !important;
+        margin-top: -25px;
+    }
+
+    .navbar-toggler {
+        margin-top: -60px;
+    }
+    /* navbar css endss */
+
+    /* banner css starts */
+
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-bg img {
+        width: 100%;
+        margin-left: 0px !important;
+        padding-right: 15px;
+    }
+
+    #banner .banner-text h4 {
+        padding-top: 50px;
+        margin-right: 10px !important;
+        margin-bottom: -25px !important;
+    }
+
+    #banner .banner-text h1 {
+        margin-top: 0 !important;
+        font-size: 170px;
+    }
+
+    #banner .banner-text p {
+        padding: 0 5px;
+        padding-bottom: 30px;
+    }
+
+    #banner .banner-text button{
+        margin-left: 12px;
+    }
+    /* banner css ends */
+
+    /* steps css starts */
+    
+    #steps {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    /* steps css ends */
+
+    /* related game css starts */
+
+    #related-game {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #related-game .game-heading {
+        padding: 0px 0px;
+        padding-bottom: 30px;
+    }
+
+    #related-game .game-heading h3{
+        font-size: 38px;
+    }
+
+    #related-game .game-item{
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    /* related game css ends */
+
+    /* unlock free spin css starts */
+
+    #free-spin{
+        padding-top: 60px;
+        padding-bottom: 190px;
+    }
+
+    /* #free-spin .spin-img .spin-img-2 {
+        left: 0px;
+        bottom: -443px;
+    } */
+
+    #free-spin .spin-text {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #free-spin .spin-text .spin-heading h4{
+        font-size: 38px;
+    }
+
+
+    #free-spin .spin-text .spin-btn {
+        padding-top: 30px;
+    }
+
+    /* unlock free spin css ends */
+
+    /* Our Pricing Plan css starts */
+
+    #price-plan {
+        padding-top: 64px;
+        padding-bottom: 87px;
+    }
+
+    #price-plan header {
+        padding-bottom: 60px;
+    }
+
+    #price-plan header h3{
+        font-size: 38px;
+    }
+
+    #price-plan .card {
+        margin-bottom: 60px;
+    }
+
+    #price-plan .card .trial-plan {
+        padding-top: 40px;
+    }
+
+    #price-plan .card .price-plan-btn {
+        bottom: -12px;
+    }
+
+    /* Our Pricing Plan css ends */
+
+
+    /* Tournaments css starts */
+
+
+
+
+
+
+
+
+
+
+    /* Todays Tournaments css starts */
+
+    #tournament .todays-tournament{
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0b001b;
+        box-shadow: 0px 1px 0px 0px #3d013173;
+    }
+
+    #remaining-time div {
+        padding: 0px 10px 0px 10px;
+        padding-top: 5px !important;
+        margin: 0 10px;
+    }
+
+    #remaining-time div:last-of-type{
+        margin-right: 10px;
+    }
+
+    /* Tournaments css ends */
+
+/* subscribe & payment mathot starts css starts */
+
+    #subscribe-offer .newsletter {
+        padding-bottom: 40px;
+        border-bottom: 2px solid #0b001b;
+        box-shadow: 0px 1px 0px 0px #fdc202dc;
+    }
+
+    #subscribe-offer .newsletter {
+        margin-right: 0px;
+    }
+
+    .newsletter .offer-subscribe input {
+        width: 82%;
+    }
+
+    .pay-card {
+        padding-top: 40px;
+        margin-left: 0px;
+        border-top: 2px solid #3d013173;
+    }
+
+/* subscribe & payment mathot starts css ends */
+
+
+}
+/* ===============================
+    extra small device css ends
+=============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css starts */
+/* css ends */
+
+
+/* ===============================
+     device css starts
+=============================== */
+@media(min-width: 300px) and (max-width: 575px){
+
+}
+/* ===============================
+     device css ends
+=============================== */

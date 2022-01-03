@@ -1,0 +1,975 @@
+/* ===================
+    common css starts
+ ================== */
+
+    :root{
+        --ff1: 'Anton',sans-serif;
+        --ff2: 'Nunito',sans-serif;
+        /* color css */
+        --cardbg: #9b4bf9;
+        --brandcol: #5f12cf;
+        --brandco-2: #fdba05;
+        --textwhite: #FFF;
+        --hovercol: #bb0d99;
+        --bgcol-1: #0b001b;
+        --bgcol: #150035;
+        --overl85 : rgba(21, 0, 53, 0.85);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul,ol{
+        list-style: none;
+    }
+    
+    /* ===================
+    common css ends
+    ================== */
+    
+    /* ========================
+    font import css starts
+    ========================= */
+    @font-face {
+        font-family: anton-reg;
+        src: url(../webfonts/Anton/Anton-Regular.ttf);
+    }
+    @font-face {
+        font-family: nunito-exl;
+        src: url(../webfonts/Nunito/Nunito-ExtraLight.ttf);
+        font-family: nunito-semi;
+        src: url(../webfonts/Nunito/Nunito-SemiBold.ttf);
+        font-family: nunito-reg;
+        src: url(../webfonts/Nunito/Nunito-Regular.ttf);
+    }
+/* ========================
+    font import css ends
+========================*/
+
+/* =========================
+    typography css starts
+ ======================== */
+    .anton-reg{
+        font-family: var(--ff1);
+        font-family: anton-reg;
+        font-weight: 400;
+    }
+
+    .nunito-exl{
+        font-family: var(--ff2);
+        font-family: nunito-semi;
+        font-weight: 200;
+    }
+
+    .nunito-semi{
+        font-family: var(--ff2);
+        font-weight: 600;
+    }
+
+    .nunito-reg{
+        font-family: var(--ff2);
+        font-weight: 400;
+    }
+
+    .fs-50{
+        font-size: 50px;
+    }
+
+    .fs-48 {
+        font-size: 48px;
+    }
+
+    .fs-40 {
+        font-size: 40px;
+    }
+
+    .fs-32 {
+        font-size: 32px;
+    }
+
+    .fs-24 {
+        font-size: 24px;
+    }
+
+    .fs-20 {
+        font-size: 20px;
+    }
+
+    .fs-16 {
+        font-size: 16px;
+    }
+
+    .fs-14 {
+        font-size: 14px;
+    }
+
+
+/* =========================
+    typography css ends
+======================== */
+
+/* =========================
+    navbar css starts
+======================== */
+
+.navbar {
+    padding-bottom: 5px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.nav-bg {
+    margin-top: 0 !important;
+    background: #8820ff5b !important;
+    animation: displayNav 1s;
+    -webkit-animation: displayNav 1s;
+}
+
+.navbar-light .navbar-nav{
+    margin-top: 92px;
+    margin-right: 70px !important;
+    z-index: 999;
+}
+
+.navbar-light .navbar-toggler,i {
+    color: var(--brandcol);
+    border-color: var(--brandcol);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    line-height: 50px;
+    padding: 0 24px !important;
+    color: var(--brandcol);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 57, 220);
+}
+
+.nav-manu .cta-btn{
+    margin-top: 85px;
+    margin-right: 30px;
+}
+
+.nav-manu .cta-btn:last-child{
+    margin-right: 0 !important;
+}
+
+.cta-btn{
+    background: linear-gradient(rgb(132, 50, 247) 50%, #4607a5 100%);
+    border: 0 !important;
+    padding: 0 25px;
+    line-height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    filter: drop-shadow(0px 6px 0px #6a10f1);
+    -webkit-filter: drop-shadow(0px 6px 0px #6a10f1);
+    text-shadow: 0px 5px 3px #280352;
+    letter-spacing: 1px;
+    transition: all linear 0.4s !important;
+    -webkit-transition: all linear 0.4s !important;
+    -moz-transition: all linear 0.4s !important;
+    -ms-transition: all linear 0.4s !important;
+    -o-transition: all linear 0.4s !important;
+}
+
+.cta-btn:hover{
+    background: linear-gradient(rgb(252, 42, 213) 30%, rgb(187, 13, 153) 100%);
+    filter: drop-shadow(0px 6px 0px #6b026b);
+}
+
+
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    padding-right: 0 !important;
+
+}
+
+/* =========================
+    navbar css ends
+======================== */
+
+/* =========================
+    banner css starts
+======================== */
+#banner{
+    background: var(--bgcol);
+    padding-top: 182px;
+    padding-bottom: 170px;
+}
+
+#banner .banner-bg img{
+    margin-left: -200px;
+}
+
+#banner .banner-text h4{
+    padding-top: 100px;
+    margin-right: 298.5px !important;
+}
+
+#banner .banner-text h1{
+    margin-top: -40px !important;
+    font-size: 331px;
+    background: -webkit-linear-gradient(#fdba05 100%, #d8a109 10%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 15px 25px #f507c554;
+}
+
+#banner .banner-text p{
+    padding: 0 47px;
+    padding-bottom: 30px;
+}
+
+
+/* =========================
+    banner css ends
+======================== */
+
+/* =========================
+    steps css starts
+======================== */
+#steps{
+    background: var(--bgcol-1);
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+
+#steps .steps-card{
+    width: 35.5%;
+    background: linear-gradient(#6317d0 30%, rgb(124, 30, 255) 100%);
+    padding: 30px 40px;
+
+}
+
+#steps .steps-card h4{
+    color: var(--brandco-2);
+    text-shadow: 0px 8px 10px #a60084;
+    padding-bottom: 9px !important;
+    
+}
+#steps .steps-card h5{
+    text-shadow: 0px 8px 10px #6317d0;
+    padding-bottom: 4px !important;
+}
+
+#steps .card-1{
+    border-radius: 5px 0px 0px 5px;
+    filter: drop-shadow(3px 6px 3px #43059b);
+    -webkit-filter: drop-shadow(3px 6px 3px #43059b);
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -ms-border-radius: 5px 0px 0px 5px;
+    -o-border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    z-index: 3;
+}
+#steps .card-2{
+    filter: drop-shadow(5px 5px 3px #43059b);
+    -webkit-filter: drop-shadow(5px 5px 3px #43059b);
+    position: absolute;
+    top: -150px;
+    left: 375px;
+    z-index: 2;
+}
+#steps .card-3{
+    border-radius: 0px 5px 5px 0px;
+    filter: drop-shadow(0px 5px 3px #43059b);
+    -webkit-filter: drop-shadow(0px 5px 3px #43059b);
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    top: -150px;
+    left: 751px;
+}
+
+/* =========================
+    steps css ends
+======================== */
+
+/* =========================
+    related game css starts
+======================== */
+#related-game{
+    background: var(--bgcol-1);
+    padding-bottom: 100px;
+}
+
+#related-game .game-heading{
+    padding: 65px 65px;
+}
+
+#related-game .game-heading h3{
+    background: -webkit-linear-gradient(#fdba05 100%, #d8a109 10%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 6px 0px 20px #f507c554;
+}
+
+#related-game .game-item{
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#related-game .game-item .game-image img{
+    border-radius: 12px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#related-game .game-item:hover .game-image img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#related-game .game-item .game-image .gameimage-overlay{
+    height: 0%;
+    left: 0;
+    background: rgba(21, 0, 53, 0.85);
+    border-radius: 12px;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#related-game .game-item .game-image:hover .gameimage-overlay{
+    height: 100%;
+    opacity: 1;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+#related-game .game-item .game-image .gameimage-overlay h5{
+    padding-bottom: 45px;
+}
+
+
+/* =========================
+    related game css ends
+======================== */
+/* =============================
+    unlock free spin css starts
+============================ */
+
+#free-spin{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: var(--bgcol);
+}
+
+#free-spin .spin-img .spin-img-1 {
+    left: 0;
+    top: 0;
+}
+
+#free-spin .spin-img .spin-img-2 {
+    left: -41px;
+    bottom: -142px;
+}
+
+#free-spin .spin-img .spin-img-3 {
+    left: 0;
+    bottom: -67px;
+}
+
+#free-spin .spin-text{
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#free-spin .spin-text .spin-heading h4{
+    background: -webkit-linear-gradient(#fdba05 100%, #d8a109 10%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 6px 0px 20px #f507c554;
+    padding-bottom: 20px;
+}
+
+#free-spin .spin-text p{
+padding-top: 30px;
+}
+
+#free-spin .spin-text .spin-btn{
+    padding-top: 58px;
+}
+
+
+/* =============================
+    unlock free spin css ends
+============================ */
+
+/* ============================
+    Our Pricing Plan css starts
+=========================== */
+
+#price-plan{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: var(--bgcol-1);
+}
+
+#price-plan header{
+    padding-bottom: 78px;
+}
+
+#price-plan header h3{
+    background: -webkit-linear-gradient(#fdba05 100%, #d8a109 10%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 6px 0px 20px #f507c554;
+}
+
+#price-plan .card{
+    background: linear-gradient(var(--cardbg) 30%, #6116cf 100%);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    border: none;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#price-plan .card:hover{
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+
+#price-plan .card .plan-feature {
+    padding: 11px 0;
+    margin-bottom: 0;
+    background-color: none;
+    display: none;
+    line-height: 56px !important;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+#price-plan .card:hover .plan-feature {
+    display: block;
+    margin-top: -20px;
+    background: linear-gradient(rgb(252, 42, 213) 30%, rgb(187, 13, 153) 100%);
+    filter: drop-shadow(0px 6px 0px #6b026b);
+}
+
+#price-plan .card-header {
+    border-bottom: 1px solid #150035;
+}
+
+#price-plan .card .trial-plan{
+    padding-top: 58px;
+}
+
+#price-plan .trial-plan h6:first-child {
+    text-shadow: 0px 4px 2px #310372;
+}
+
+#price-plan .plan-list ul{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#price-plan .plan-list ul li{
+    margin-bottom: 15px;
+}
+
+#price-plan .plan-list ul li:last-child{
+    margin-bottom: 0;
+}
+
+#price-plan .card .price-plan-btn {
+    left: 50%;
+    bottom: -25px;
+    padding: 0 16px;
+    transform: translateX(-50%);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#price-plan .card:hover .price-plan-btn{
+    background: linear-gradient(rgb(252, 42, 213) 30%, rgb(187, 13, 153) 100%);
+    filter: drop-shadow(0px 6px 0px #6b026b);
+}
+
+
+/* ============================
+    Our Pricing Plan css ends
+=========================== */
+
+/* =============================
+    Tournaments Plan css starts
+============================= */
+/* =======================================
+    Tournaments Ask Questions css starts
+====================================== */
+
+.border-show{
+    border: 1px solid #fcb100;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#tournament{
+    background: var(--bgcol);
+    padding-top: 96px;
+    padding-bottom: 100px;
+}
+
+#tournament .header{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0b001b;
+    box-shadow: 0px 1px 0px 0px #3d013173;
+}
+#tournament .header h3{
+    background: -webkit-linear-gradient(#fdba05 100%, #d8a109 10%);
+    text-shadow: 6px 0px 20px #f507c554;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 30px;
+    
+}
+
+#tournament .question-list ol li span{
+    display: inline-block;
+    width: 87%;
+}
+
+#tournament .question-list ol li i{
+    padding-left: 33px;
+    
+}
+
+#tournament .question-list ol li{
+    padding: 30px;
+}
+
+#tournament .question-list ol li p{
+    display: none;
+    padding-top: 30px;
+}
+
+/* =====Tournaments Ask Questions css ends==== */
+
+/* ====Today’s Tournaments css starts ====== */
+
+
+#tournament .remaining-time{
+    padding-bottom: 20px;
+}
+
+#remaining-time{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#remaining-time div{
+    color: #d8a109;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #d8a109;
+    padding: 5px 10px;
+    margin: 0 20px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+#remaining-time div:last-child{
+    margin-right: 0;
+}
+
+#tournament .tournaments-list .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #310372;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+    height: 34px;
+    width: 9px;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail{
+    width: 2px;
+    height: 200px;
+    /* margin: 0 auto; */
+    background: linear-gradient(#310372, #7e2cf0);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#tournament .tournaments-list .mCSB_scrollTools .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    background: #310372;
+}
+
+#tournament .tournaments-list .mCustomScrollbar {
+    height: 280px;
+}
+
+#tournament .tournaments-list .name{
+    display: inline-block;
+    width: 50%;
+}
+#tournament .tournaments-list .dolar{
+    text-align: right;
+    display: inline-block;
+    width: 43%;
+}
+
+#tournament .tournaments-list ol li{
+    padding-bottom: 24px;
+    margin-top: 24px;
+    border-bottom: 2px solid #0b001b;
+    box-shadow: 0px 1px 0px 0px #440144ad;
+}
+#tournament .tournaments-list ol li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+
+}
+
+/* ====Today’s Tournaments css ends==== */
+/* =============================
+    Tournaments css ends
+============================= */
+
+/* =======================================
+    subscribe & payment mathot css starts
+====================================== */
+#subscribe-offer{
+    background: linear-gradient(#6a10f1, #310372);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    filter: drop-shadow(0px 7px 0px #4a0ca8);
+    -webkit-filter: drop-shadow(0px 7px 0px #4a0ca8);
+}
+
+#subscribe-offer .newsletter{
+    margin-right: 42px;
+}
+
+#subscribe-offer .newsletter header{
+    padding-bottom: 15px;
+    
+}
+
+#subscribe-offer .newsletter header h5 {
+    text-shadow: 0px 4px 2px #310372;
+}
+
+.newsletter .offer-subscribe input {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    padding: 0 10px;
+    background: none;
+    border: 1px solid var(--bgcol);
+}
+
+.newsletter .offer-subscribe .subscribe-btn {
+    border: 1px solid var(--bgcol);
+    text-align: center;
+    border-left: none;
+    display: inline-block;
+    line-height: 38px;
+    width: 40px;
+    margin-left: -5px !important;
+}
+
+.newsletter .offer-subscribe a i {
+    font-size: 16px;
+    color: var(--bgcol);
+}
+
+/* ==== subscribe offers css ends ====== */
+
+/* ==== payment mathot css starts ====== */
+
+.pay-card{
+    margin-left: 43px;
+}
+
+.pay-card header{
+    padding-bottom: 15px;
+}
+
+.pay-card header h5{
+    text-shadow: 0px 4px 2px #310372;
+}
+
+
+
+/* =======================================
+    subscribe & payment mathot css ends
+====================================== */
+
+/* =========================
+    footer css starts
+======================== */
+footer{
+    background: #0b001b;
+    padding-top: 62px;
+}
+
+footer .container{
+    padding-bottom: 70px;
+}
+
+footer header{
+    padding-bottom: 27px;
+}
+
+.about-jacpot ul{
+    padding-top: 40px;
+}
+
+.about-jacpot ul li {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(rgb(132, 50, 247) 50%, #4607a5 100%);
+    margin-right: 15px;
+    text-align: center;
+    filter: drop-shadow(0px 6px 0px #6a10f1);
+    -webkit-filter: drop-shadow(0px 6px 0px #6a10f1);
+}
+
+.about-jacpot ul li:hover{
+    background: linear-gradient(rgb(252, 42, 213) 30%, rgb(187, 13, 153) 100%);
+    filter: drop-shadow(0px 6px 0px #6b026b);
+}
+
+.about-jacpot ul li:last-child{
+    margin-right: 0;
+}
+
+.about-jacpot ul li a i{
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 0px 4px 2px #310372;
+}
+
+.important-link .link-item ul li{
+    margin-bottom: 17px !important;
+}
+
+.important-link .link-item ul li:nth-child(5){
+    margin-bottom: 0;
+}
+
+.important-link .link-item ul li span{
+    display: inline-block;
+    width: 50%;
+}
+
+.important-link .link-item ul li a{
+    color: #FFF;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.important-link .link-item ul li a:hover{
+    color: #310372;
+}
+
+.security-option{
+    margin-bottom: 40px;
+}
+
+.security-option:last-of-type{
+    margin-bottom: 0 ;
+}
+
+.security-option img{
+    padding-right: 15px !important;
+}
+
+
+.security-option a{
+    color: #FFF;
+    position: absolute;
+    top: 15px;
+    left: 99px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.security-option a:hover{
+    color: #310372;
+}
+
+
+.footer-copy{
+    border-top: 2px solid #040108;
+    box-shadow: 0px 0px 1px 0px #ce03f7;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.footer-copy span{
+    color: #6317d0;
+}
+
+/* .footer-copy p::after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #a60084;
+    box-shadow: 0px 5px 5px 0px rgba(166, 0, 133, 0.9);
+    position: absolute;
+    top: 0;
+    left: 200px;
+    animation: animate linear 10s infinite;
+    -webkit-animation: animate linear 10s infinite;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.footer-copy p::before {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #a60084;
+    box-shadow: 0px 5px 5px 0px rgba(166, 0, 133, 0.9);
+    position: absolute;
+    top: 0;
+    right: 200px;
+    animation: move1 linear 10s infinite;
+    -webkit-animation: move1 linear 10s infinite;
+}
+
+@keyframes move1 {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: 100%;
+    }
+} */
+
+
+/* =========================
+    footer css ends
+======================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+    css starts
+======================== */
+/* =========================
+    css ends
+======================== */
