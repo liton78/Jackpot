@@ -50,7 +50,7 @@
     }
 
     #banner .banner-text p {
-        padding: 0 5px;
+        padding: 0 0px;
         padding-bottom: 30px;
     }
 
@@ -127,6 +127,10 @@
         padding-bottom: 87px;
     }
 
+    #price-plan .container{
+        margin: auto !important;
+    }
+
     #price-plan header {
         padding-bottom: 60px;
     }
@@ -137,6 +141,7 @@
 
     #price-plan .card {
         margin-bottom: 60px;
+
     }
 
     #price-plan .card .trial-plan {
@@ -204,6 +209,27 @@
     }
 
 /* subscribe & payment mathot starts css ends */
+
+/* footer css starts */
+
+    footer .container {
+        padding-bottom: 30px;
+    }
+
+    .footer-item{
+        border-bottom: 2px solid #0b001b;
+        box-shadow: 0px 1px 0px 0px #fdc202dc;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .security-info{
+        border-bottom: 0 !important;
+    }
+
+
+/* footer css ends */
+
 
 
 }

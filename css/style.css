@@ -903,7 +903,7 @@ footer header{
     color: #6317d0;
 }
 
-/* .footer-copy p::after {
+.footer-copy p::after {
     content: '';
     width: 50px;
     height: 1px;
@@ -911,14 +911,14 @@ footer header{
     box-shadow: 0px 5px 5px 0px rgba(166, 0, 133, 0.9);
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 400px;
     animation: animate linear 10s infinite;
     -webkit-animation: animate linear 10s infinite;
 }
 
 @keyframes animate {
     0% {
-        left: 0;
+        left: 0%;
     }
 
     100% {
@@ -934,20 +934,20 @@ footer header{
     box-shadow: 0px 5px 5px 0px rgba(166, 0, 133, 0.9);
     position: absolute;
     top: 0;
-    right: 200px;
+    right: 400px;
     animation: move1 linear 10s infinite;
     -webkit-animation: move1 linear 10s infinite;
 }
 
 @keyframes move1 {
     0% {
-        right: 0;
+        right: 0%;
     }
 
     100% {
         right: 100%;
     }
-} */
+}
 
 
 /* =========================
