@@ -85,8 +85,7 @@
     }
 
     #related-game .game-item{
-        padding-bottom: 15px;
-        padding-right: 10px;
+        padding-bottom: 35px;
     }
 
     /* related game css ends */
@@ -127,10 +126,6 @@
         padding-bottom: 30px;
     }
 
-    #price-plan .container{
-        margin: auto !important;
-    }
-
     #price-plan header {
         padding-bottom: 60px;
     }
@@ -151,6 +146,10 @@
         bottom: -12px;
     }
 
+    #price-plan .card .cta-btn{
+        font-size: 19px;
+    }
+
     /* Our Pricing Plan css ends */
 
 
@@ -162,7 +161,12 @@
     }
 
     #tournament .header h3{
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    #tournament .question-list ol li span {
+        width: auto;
+        font-size: 16px;
     }
 
 
@@ -182,6 +186,11 @@
         box-shadow: 0px 1px 0px 0px #3d013173;
     }
 
+    #remaining-time {
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
     #remaining-time div {
         padding: 0px 10px 0px 10px;
         padding-top: 5px !important;
@@ -190,6 +199,15 @@
 
     #remaining-time div:last-of-type{
         margin-right: 10px;
+    }
+
+    #tournament .tournaments-list .name {
+        font-size: 14px;
+    }
+
+    #tournament .tournaments-list .dolar {
+        width: 38%;
+        font-size: 14px;
     }
 
     /* Tournaments css ends */
@@ -232,6 +250,14 @@
         box-shadow: 0px 2px 0px 0px #590261dc;
         padding-bottom: 30px;
         margin-bottom: 30px;
+    }
+
+    .footer-copy p::before{
+        display: none;
+    }
+
+    .footer-copy p::after{
+        display: none;
     }
 
 

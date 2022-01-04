@@ -203,7 +203,7 @@
 
 
 
-.container,
+/* .container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -212,7 +212,7 @@
 .container-xxl {
     padding-right: 0 !important;
 
-}
+} */
 
 /* =========================
     navbar css ends
@@ -641,7 +641,8 @@ padding-top: 30px;
 #remaining-time{
     height: 100px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+
 }
 
 #remaining-time div{

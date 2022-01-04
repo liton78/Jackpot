@@ -3,9 +3,9 @@ $(document).ready(function(){
 
     // spin section tilt image js 
 
-    $('.js-tilt').tilt();
+    $('.js-tilt').tilt({});
 
-
+    // nav fixed scroll
     $(window).on('scroll', function(){
         
     var scrolling = $(this).scrollTop();
@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('.navbar').addClass('nav-bg');
     }else{
         $('.navbar').removeClass('nav-bg');
-    };
+    }
 
     });
 
@@ -57,7 +57,7 @@ $(document).ready(function(){
         $(this).html(event.strftime(
             // '<div>%w weeks</div>'
             // +'<div>%d days</div>'
-            'Time Remaining:'
+            '<span>Time Remaining:</span>'
             +'<div>%H Hour</div>'
             +'<div>%M Min</div>'
             +'<div>%S Sec</div>'));
@@ -77,10 +77,7 @@ $(document).ready(function(){
         // });
         // });
 
-    $(".mCustomScrollbar").mCustomScrollbar({
-        axis:"y",
-        scrollbarPosition: "inside"
-    });
+    $(".mCustomScrollbar").mCustomScrollbar({});
 
 
 
