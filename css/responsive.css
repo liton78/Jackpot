@@ -8,6 +8,8 @@
 
     /* button common css starts */
     .cta-btn{
+        margin-top: 50px !important;
+        margin-bottom: 10px;
         padding: 0 10px;
         line-height: 35px;
         font-size: 20px;
@@ -15,13 +17,17 @@
     /* button common css ends */
 
     /* navbar css starts */
+    .navbar{
+        background: #f7f451b2;
+        padding-bottom: 10px !important;
+    }
     .navbar .navbar-brand{
         position: static !important;
         margin-top: -25px;
     }
 
-    .navbar-toggler {
-        margin-top: -60px;
+    .navbar .navbar-toggler {
+        margin-top: 50px;
     }
     /* navbar css endss */
 
@@ -112,7 +118,6 @@
         font-size: 38px;
     }
 
-
     #free-spin .spin-text .spin-btn {
         padding-top: 30px;
     }
@@ -165,18 +170,9 @@
     }
 
     #tournament .question-list ol li span {
-        width: auto;
-        font-size: 16px;
+        width: 80%;
+        font-size: 18px;
     }
-
-
-
-
-
-
-
-
-
 
     /* Todays Tournaments css starts */
 
@@ -242,8 +238,6 @@
         padding-bottom: 30px;
     }
 
-
-
     .about-jacpot,
     .important-link {
         border-bottom: 1px solid #e8f806;
@@ -260,16 +254,23 @@
         display: none;
     }
 
-
-
 /* footer css ends */
-
-
 
 }
 /* ===============================
     extra small device css ends
 =============================== */
+
+/* ===================================
+    smsll device responsive css starts
+=================================== */
+@media(min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/* ===================================
+    smsll device responsive css ends
+=================================== */
 
 
 
@@ -292,11 +293,11 @@
 
 
 /* ===============================
-     device css starts
+     device responsive css starts
 =============================== */
 @media(min-width: 300px) and (max-width: 575px){
 
 }
 /* ===============================
-     device css ends
+     device responsive css ends
 =============================== */

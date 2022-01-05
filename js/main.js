@@ -79,9 +79,12 @@ $(document).ready(function(){
 
     $(".mCustomScrollbar").mCustomScrollbar({});
 
+    // Jquery water ripple
 
-
-
+    $('#banner').ripples({
+    dropRadius: 10,
+    perturbance: 0.03
+});
 
 
 
