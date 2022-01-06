@@ -8,8 +8,6 @@
 
     /* button common css starts */
     .cta-btn{
-        margin-top: 50px !important;
-        margin-bottom: 10px;
         padding: 0 10px;
         line-height: 35px;
         font-size: 20px;
@@ -27,14 +25,14 @@
     }
 
     .navbar .navbar-toggler {
-        margin-top: 50px;
+        margin-top: -58px;
     }
     /* navbar css endss */
 
     /* banner css starts */
 
     #banner {
-        padding-top: 130px;
+        padding-top: 150px;
         padding-bottom: 80px;
     }
 
@@ -64,13 +62,12 @@
         margin-left: 12px;
     }
     /* banner css ends */
+    #steps{
+        display: none !important;
+    }
 
     /* steps css starts */
-    
-    #steps {
-        padding-bottom: 0px;
-        padding-top: 0px;
-    }
+
 
     /* steps css ends */
 
@@ -143,7 +140,7 @@
     }
 
     #price-plan .card .price-plan-btn {
-        bottom: -12px;
+        bottom: -24px;
     }
 
     #price-plan .card .cta-btn{
@@ -313,10 +310,10 @@
 
 /* steps css starts */
 
-#steps {
+/* #steps {
     padding-bottom: 0px;
     padding-top: 0px;
-}
+} */
 
 /* steps css ends */
 
