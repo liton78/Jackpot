@@ -133,7 +133,7 @@
 
 .nav-bg {
     margin-top: 0 !important;
-    background: #8820ff5b !important;
+    background: #f7f4518c !important;
     animation: displayNav 1s;
     -webkit-animation: displayNav 1s;
 }
@@ -254,9 +254,9 @@
 }
 
 #steps .steps-card{
-    width: 35.5%;
+    /* width: 35.5%; */
     background: linear-gradient(#6317d0 30%, rgb(124, 30, 255) 100%);
-    padding: 30px 40px;
+    padding: 30px 84px;
 
 }
 
@@ -303,6 +303,8 @@
     position: absolute;
     top: -150px;
     left: 751px;
+    padding-top: 20px;
+    padding-bottom: 16px;
 }
 
 /* =========================
