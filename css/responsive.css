@@ -140,7 +140,7 @@
     }
 
     #price-plan .card .price-plan-btn {
-        bottom: -24px;
+        bottom: -14px;
     }
 
     #price-plan .card .cta-btn{
@@ -274,7 +274,7 @@
 
     /* navbar css endss */
 
-/* banner css starts */
+    /* banner css starts */
 
 #banner {
     padding-top: 130px;
@@ -463,9 +463,9 @@ footer .container {
     smsll device responsive css ends
 =================================== */
 
-/* ===============================
+/* =====================================
     medium device responsive css starts
-=============================== */
+===================================== */
 @media(min-width: 768px) and (max-width: 991px) {
 
     /* navbar css starts */
@@ -598,9 +598,73 @@ footer .container {
 
 /* footer css ends */
 
-/* ===============================
+/* =====================================
     medium device responsive css ends
-=============================== */
+===================================== */
+
+/* ====================================
+    large device responsive css starts
+==================================== */
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /* navbar css starts */
+    .navbar{
+        position: fixed !important;
+    }
+
+    .navbar-light .navbar-nav {
+        margin-right: 0px !important;
+    }
+
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 18px !important;
+        font-size: 18px;
+    }
+
+    /* navbar css ends */
+    /* banner css starts */
+
+    #banner .banner-text h4 {
+        margin-right: 228.5px !important;
+        padding-top: 60px;
+    }
+
+    #banner .banner-text h1{
+    font-size: 280px;
+    }
+
+
+
+
+
+    /* banner css ends */
+
+    #steps .steps-card{
+        padding: 30px 47px;
+    }
+
+    #steps .card-2{
+        left: 330px;
+    }
+
+    #steps .card-3{
+        left: 623px;
+    }
+
+
+    #price-plan .card .price-plan-btn {
+        font-size: 20px;
+    }
+
+}
+
+/* ==================================
+    large device responsive css ends
+================================== */
 
 
 
